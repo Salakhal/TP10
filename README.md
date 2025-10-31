@@ -12,7 +12,7 @@ Chaque exercice introduit une structure de collection différente et illustre so
 - Manipuler les collections via les boucles et les itérateurs
 
   ## Sortie attendue
-
+```
 Gestion de la liste de courses
 
 Commandes : add, remove, find, show, exit
@@ -45,7 +45,7 @@ Votre liste de courses :
 
 Entrez une commande : exit
 Au revoir !
-
+```
 
 
 
@@ -81,7 +81,7 @@ L’exercice consiste à :
 
 
  ## Sortie attendue
-
+```
 === Toutes les tâches ===
 [1] (prio=2) PENDING — Écrire la doc
 [2] (prio=1) PENDING — Corriger les bugs
@@ -109,7 +109,7 @@ L’exercice consiste à :
 [2] (prio=1) IN_PROGRESS — Corriger les bugs
 [3] (prio=3) PENDING — Préparer démo
 [4] (prio=4) PENDING — Envoyer emails
-
+```
   
 
 
@@ -135,8 +135,9 @@ L’exercice consiste à :
 
 ---
  ## Sortie attendue
+```
 
-
+```
 
 ## Exercice 4 : Gestion d’un Dictionnaire Bilingue avec Map
 
@@ -163,7 +164,59 @@ L’application DictionaryManager permet :
 ---
 
  ## Sortie attendue
+```
+=== HashMap (unordered) ===
+banana     → banane
+apple      → pomme
+cherry     → cerise
+date       → datte
+apricot    → abricot
 
+=== LinkedHashMap (insertion order) ===
+apple      → pomme
+banana     → banane
+cherry     → cerise
+date       → datte
+apricot    → abricot
+
+=== TreeMap (alphabetical order) ===
+apple      → pomme
+apricot    → abricot
+banana     → banane
+cherry     → cerise
+date       → datte
+
+
+Mot à traduire : apple
+Traduction de 'apple' : pomme
+
+Préfixe à chercher : ap
+Résultats pour "ap" :
+apple      → pomme
+apricot    → abricot
+
+Mot à supprimer : banana
+'banana' supprimé avec succès.
+
+=== HashMap (unordered) ===
+apple      → pomme
+cherry     → cerise
+date       → datte
+apricot    → abricot
+
+=== LinkedHashMap (insertion order) ===
+apple      → pomme
+cherry     → cerise
+date       → datte
+apricot    → abricot
+
+=== TreeMap (alphabetical order) ===
+apple      → pomme
+apricot    → abricot
+cherry     → cerise
+date       → datte
+
+```
 
 ## Exercice 5 : Maîtrise des Collections – Gestion d’une bibliothèque
 
@@ -189,8 +242,21 @@ L’application permet de gérer une bibliothèque :
 ---
 
  ## Sortie attendue
+```
+Disponibles : [Effective Java (ISBN:978-0134685991) by Joshua Bloch, Head First Java (ISBN:978-0596009205) by Kathy Sierra]
+Alice emprunte Effective Java : true
+Bob emprunte Effective Java : true
+Bob emprunte Effective Java à nouveau : false
+Disponibles : [Effective Java (ISBN:978-0134685991) by Joshua Bloch]
+Emprunts d'Alice : [Effective Java (ISBN:978-0134685991) by Joshua Bloch]
+Emprunts de Bob   : [Effective Java (ISBN:978-0134685991) by Joshua Bloch]
+Alice retourne le livre : true
+Disponibles après retour : [Effective Java (ISBN:978-0134685991) by Joshua Bloch, Head First Java (ISBN:978-0596009205) by Kathy Sierra]
 
-![Uploading image.png…]()
+
+```
+
+
 
 
 
