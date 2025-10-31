@@ -20,33 +20,41 @@ Entrez une commande : add
 Article à ajouter : Lait
 'Lait' ajouté.
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : add
 Article à ajouter : Pain
 'Pain' ajouté.
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : show
 
 Votre liste de courses :
  1. Lait
  2. Pain
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : find
 Article à rechercher : Oeufs
 'Oeufs' n'est pas dans la liste.
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : remove
 Article à supprimer : Pain
 'Pain' supprimé.
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : show
 
 Votre liste de courses :
  1. Lait
 
+Commandes : add, remove, find, show, exit
 Entrez une commande : exit
 Au revoir !
+ 
 ```
 
+<img width="557" height="957" alt="image" src="https://github.com/user-attachments/assets/9cd414f0-6ef0-4c9b-9915-5a10d6e7ee03" />
 
 
   
@@ -110,7 +118,8 @@ L’exercice consiste à :
 [3] (prio=3) PENDING — Préparer démo
 [4] (prio=4) PENDING — Envoyer emails
 ```
-  
+ <img width="636" height="694" alt="image" src="https://github.com/user-attachments/assets/784e6cc6-cc2b-45e5-94c0-dad1bde56027" />
+ 
 
 
 ## Exercice 3 : Maîtrise des Set : Gestionnaire de Mots Uniques
@@ -134,10 +143,10 @@ L’exercice consiste à :
 4. Permet de rechercher ou supprimer un mot via l’utilisateur
 
 ---
- ## Sortie attendue
-```
+ ## Exemple d’exécution :
+ 
+<img width="1671" height="718" alt="image" src="https://github.com/user-attachments/assets/c482bd42-4f51-4cba-be33-8ef6ca82f065" />
 
-```
 
 ## Exercice 4 : Gestion d’un Dictionnaire Bilingue avec Map
 
@@ -167,10 +176,10 @@ L’application DictionaryManager permet :
 ```
 === HashMap (unordered) ===
 banana     → banane
-apple      → pomme
-cherry     → cerise
 date       → datte
 apricot    → abricot
+apple      → pomme
+cherry     → cerise
 
 === LinkedHashMap (insertion order) ===
 apple      → pomme
@@ -186,7 +195,6 @@ banana     → banane
 cherry     → cerise
 date       → datte
 
-
 Mot à traduire : apple
 Traduction de 'apple' : pomme
 
@@ -199,10 +207,10 @@ Mot à supprimer : banana
 'banana' supprimé avec succès.
 
 === HashMap (unordered) ===
-apple      → pomme
-cherry     → cerise
 date       → datte
 apricot    → abricot
+apple      → pomme
+cherry     → cerise
 
 === LinkedHashMap (insertion order) ===
 apple      → pomme
@@ -217,6 +225,7 @@ cherry     → cerise
 date       → datte
 
 ```
+<img width="570" height="1238" alt="image" src="https://github.com/user-attachments/assets/deff2d88-7f2f-4021-9f16-9066cfaa46c9" />
 
 ## Exercice 5 : Maîtrise des Collections – Gestion d’une bibliothèque
 
@@ -256,6 +265,7 @@ Disponibles après retour : [Effective Java (ISBN:978-0134685991) by Joshua Bloc
 
 ```
 
+<img width="1636" height="299" alt="image" src="https://github.com/user-attachments/assets/3b739ad7-7449-4240-af17-d2c927126b2f" />
 
 
 
