@@ -12,7 +12,7 @@ Chaque exercice introduit une structure de collection différente et illustre so
 - Manipuler les collections via les boucles et les itérateurs
 
   ## Sortie attendue
-  ```
+
 Gestion de la liste de courses
 
 Commandes : add, remove, find, show, exit
@@ -47,7 +47,7 @@ Entrez une commande : exit
 Au revoir !
 
 
-  ```
+
 
   
 
@@ -80,9 +80,8 @@ L’exercice consiste à :
 5. Évaluer la précision et la performance des modèles
 
 
+ ## Sortie attendue
 
-
-  ```
 === Toutes les tâches ===
 [1] (prio=2) PENDING — Écrire la doc
 [2] (prio=1) PENDING — Corriger les bugs
@@ -111,10 +110,10 @@ L’exercice consiste à :
 [3] (prio=3) PENDING — Préparer démo
 [4] (prio=4) PENDING — Envoyer emails
 
-  ```
+  
 
 
-# # Exercice 3 : Maîtrise des Set : Gestionnaire de Mots Uniques
+## Exercice 3 : Maîtrise des Set : Gestionnaire de Mots Uniques
 
 ##  Objectifs pédagogiques
 - Maîtriser l’utilisation des trois implémentations de `Set` en Java :
@@ -135,6 +134,7 @@ L’exercice consiste à :
 4. Permet de rechercher ou supprimer un mot via l’utilisateur
 
 ---
+ ## Sortie attendue
 
 
 
@@ -162,6 +162,8 @@ L’application DictionaryManager permet :
 
 ---
 
+ ## Sortie attendue
+
 
 ## Exercice 5 : Maîtrise des Collections – Gestion d’une bibliothèque
 
@@ -185,6 +187,8 @@ L’application permet de gérer une bibliothèque :
 5. Prévenir les doublons d’emprunts
 
 ---
+
+ ## Sortie attendue
 
 ![Uploading image.png…]()
 
