@@ -37,12 +37,12 @@ public class WordManager {
 		System.out.println(treeSet);
 	}
 
-	/** Vérifie la présence du mot (insensible à la casse). */
+	
 	public boolean contains(String word) {
 		return hashSet.contains(word.toLowerCase(Locale.ROOT));
 	}
 
-	/** Supprime le mot des trois ensembles. */
+	
 	public boolean remove(String word) {
 		String w = word.toLowerCase(Locale.ROOT);
 		boolean removed = false;
