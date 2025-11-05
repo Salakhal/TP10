@@ -25,7 +25,7 @@ public class DictionaryManager {
 		return hashMap.get(eng);
 	}
 
-	/** Supprime l’entrée des trois maps ; retourne true si existait. */
+
 	public boolean removeEntry(String eng) {
 		boolean existed = hashMap.remove(eng) != null;
 		linkedMap.remove(eng);
@@ -43,11 +43,7 @@ public class DictionaryManager {
 		treeMap.forEach((k, v) -> System.out.printf("%-10s → %s%n", k, v));
 	}
 
-	/**
-	 * Recherche dans le TreeMap les entrées dont la clé commence par 'prefix'
-	 * (insensible à la casse), et renvoie un LinkedHashMap pour conserver l’ordre
-	 * trié.
-	 */
+
 	public Map<String, String> searchByPrefix(String prefix) {
 		String low = prefix.toLowerCase(Locale.ROOT);
 		return treeMap.entrySet().stream().filter(e -> e.getKey().toLowerCase(Locale.ROOT).startsWith(low))
